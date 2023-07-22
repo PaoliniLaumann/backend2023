@@ -5,12 +5,12 @@ const manager = new ProductManager('productos.json');
 const runTest = async () => {
   // Agregar un producto
   await manager.addProduct({
-    title: 'Producto 1',
-    description: 'Descripción del producto 2',
-    price: 30,
+    title: 'Producto 3',
+    description: 'Descripción del producto 3',
+    price: 100,
     thumbnail: 'imagen2.jpg',
     code: 'ABC124',
-    stock: 10
+    stock: 50
   });  
 
   // Obtener todos los productos
